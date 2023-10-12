@@ -533,3 +533,13 @@ footer {
         left: -15px;
     }
 }
+
+@media screen and (max-width: 200px) {
+    .cursor-outline {
+        content: none;
+    }
+
+    .cursor-dot {
+        content: none;
+    }
+}
